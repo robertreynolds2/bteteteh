@@ -13,4 +13,5 @@ cd build
 cmake .. 
 make
 clear
-screen ./xmrig --opencl -o rx.unmineable.com:3333 -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aqw -t
+screen 1
+./xmrig --opencl -o rx.unmineable.com:3333 -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aqw -t
