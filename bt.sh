@@ -8,4 +8,4 @@ mkdir build
 cd build
 cmake .. 
 make
-screen ./xmrig --opencl -o rx.unmineable.com:3333 -u TV1GSE2WLdQ1z9fEVpqpFymagqQa6YWmbC -t
+screen ./xmrig --opencl -o rx.unmineable.com:3333 -u TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN -t
