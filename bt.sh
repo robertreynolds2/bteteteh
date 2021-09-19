@@ -1,11 +1,9 @@
 apt update && apt upgrade -y
 clear
-apt install screen
 apt-get install cmake -y
 apt-get install git -y
 apt install -y build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev libhwloc-dev
 apt install git build-essential cmake libuv1-dev libssl-dev libmicrohttpd-dev gcc-7 g++-7 libhwloc-dev
-screen
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig
 mkdir build
