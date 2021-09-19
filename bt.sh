@@ -1,3 +1,6 @@
+sudo add-apt-repository ppa:acooks/libwebsockets6
+sudo apt-get update
+sudo apt-get install libuv1.dev -y
 apt update && apt upgrade -y
 clear
 apt-get install cmake -y
