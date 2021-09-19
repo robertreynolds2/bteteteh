@@ -1,6 +1,7 @@
 apt update && apt upgrade -y
 clear
 apt install screen
+apt-get install cmake -y
 clear
 apt install -y build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev libhwloc-dev
 clear
