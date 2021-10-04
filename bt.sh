@@ -8,6 +8,8 @@ apt-get install screen -y
 clear
 apt-get install git -y
 sudo apt-get install libuv-dev -y
+usermod -a -G render lufiaq
+apt install opencl-headers -y
 clear
 apt install -y build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev libhwloc-dev
 clear
