@@ -21,4 +21,4 @@ mkdir build
 cd build
 cmake ..
 make
-screen -s aq
+screen -S aq
