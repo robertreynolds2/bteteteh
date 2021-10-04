@@ -19,4 +19,4 @@ mkdir build
 cd build
 cmake ..
 make
-screen
+screen -s aq
