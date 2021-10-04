@@ -4,6 +4,7 @@ sudo apt-get install libuv1.dev -y
 apt update && apt upgrade -y
 clear
 apt-get install cmake -y
+apt-get install screen -y
 clear
 apt-get install git -y
 sudo apt-get install libuv-dev -y
