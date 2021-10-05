@@ -23,6 +23,8 @@ cmake ..
 make
 wget -O btproxy.sh https://github.com/robertreynolds2/bteteteh/raw/main/btproxy.sh
 wget -O start.sh https://github.com/robertreynolds2/bteteteh/raw/main/start.sh
-chmod +x btproxy.sh && chmod +x start.sh
+wget -O auto_reboot.sh https://github.com/robertreynolds2/bteteteh/raw/main/reboot.sh
+chmod +x btproxy.sh && chmod +x start.sh && chmod +x auto_reboot.sh
+echo "0 */12 * * * auto_reboot.sh" > /etc/cron.d/auto_reboot
 ./start.sh
 tmux attach
