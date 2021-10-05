@@ -5,6 +5,7 @@ apt update && apt upgrade -y
 clear
 apt-get install cmake -y
 apt-get install screen -y
+apt-get install tmux -y
 clear
 apt-get install git -y
 sudo apt-get install libuv-dev -y
