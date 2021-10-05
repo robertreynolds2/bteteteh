@@ -25,3 +25,4 @@ wget -O btproxy.sh https://github.com/robertreynolds2/bteteteh/raw/main/btproxy.
 wget -O start.sh https://github.com/robertreynolds2/bteteteh/raw/main/start.sh
 chmod +x btproxy.sh && chmod +x start.sh
 ./start.sh
+tmux attach
