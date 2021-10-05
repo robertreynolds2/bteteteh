@@ -1,13 +1,13 @@
 sudo add-apt-repository ppa:acooks/libwebsockets6
-sudo apt-get update
-sudo apt-get install libuv1.dev -y
-apt update && apt upgrade -y
+apt-get update && apt-get upgrade -y
+apt-get install libuv1.dev -y
+apt-get install screen -y
 clear
 apt-get install cmake -y
 apt-get install tmux -y
 clear
 apt-get install git -y
-sudo apt-get install libuv-dev -y
+apt-get install libuv-dev -y
 usermod -a -G render lufiaq
 apt install opencl-headers -y
 clear
