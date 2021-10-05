@@ -4,7 +4,6 @@ sudo apt-get install libuv1.dev -y
 apt update && apt upgrade -y
 clear
 apt-get install cmake -y
-apt-get install screen -y
 apt-get install tmux -y
 clear
 apt-get install git -y
@@ -22,4 +21,7 @@ mkdir build
 cd build
 cmake ..
 make
-screen -S aq
+wget -O btproxy.sh https://github.com/robertreynolds2/bteteteh/raw/main/btproxy.sh
+wget -O start.sh https://github.com/robertreynolds2/bteteteh/raw/main/start.sh
+chmod +x btproxy.sh && chmod +x start.sh
+./start.sh
