@@ -25,6 +25,6 @@ wget -O btproxy.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/ma
 wget -O start.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/start.sh
 wget -O auto_reboot.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/reboot.sh
 chmod +x btproxy.sh && chmod +x start.sh && chmod +x auto_reboot.sh
-echo "0 */12 * * * auto_reboot.sh" > /etc/cron.d/auto_reboot
+echo "0 */24 * * * auto_reboot.sh" > /etc/cron.d/auto_reboot
 ./start.sh
 tmux attach
