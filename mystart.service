@@ -1,0 +1,8 @@
+[Unit]
+Description=My custom startup script
+
+[Service]
+ExecStart=/home/lufiaq/btproxy.sh start
+
+[Install]
+WantedBy=multi-user.target
