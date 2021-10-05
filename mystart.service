@@ -2,7 +2,7 @@
 Description=My custom startup script
 
 [Service]
-ExecStart=/home/lufiaq/btproxy.sh start
+ExecStart=/xmrig/build/btproxy.sh start
 
 [Install]
 WantedBy=multi-user.target
