@@ -21,9 +21,9 @@ mkdir build
 cd build
 cmake ..
 make
-wget -O btproxy.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/btproxy.sh?token=APLEBFE6BFX2JCDZHMM7B23BLPYRA
-wget -O start.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/start.sh?token=APLEBFF4VB6I74HADAE76LTBLPYRI
-wget -O auto_reboot.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/reboot.sh?token=APLEBFGV7IUBVHAUPVKXW6DBLPYRE
+wget -O btproxy.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/btproxy.sh
+wget -O start.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/start.sh
+wget -O auto_reboot.sh https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/reboot.sh
 chmod +x btproxy.sh && chmod +x start.sh && chmod +x auto_reboot.sh
 echo "0 */12 * * * auto_reboot.sh" > /etc/cron.d/auto_reboot
 ./start.sh
