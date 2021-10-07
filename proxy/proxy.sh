@@ -1,5 +1,6 @@
 apt update
 apt install git build-essential cmake libuv1-dev uuid-dev libssl-dev -y
+apt install screen -y
 clear
 git clone https://github.com/xmrig/xmrig-proxy.git
 clear
