@@ -23,8 +23,8 @@
     "pools": [
         {
             "url": "rx.unmineable.com:3333",
-            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq",
-            "pass": "0x8025CE2efE37e68b1496Cb08A2Cc49Db36E57eCd",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq2",
+            "pass": "x",
             "keepalive": false,
             "variant": -1,
             "algo": "null",
