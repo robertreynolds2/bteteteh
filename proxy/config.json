@@ -1,40 +1,62 @@
 {
     "access-log-file": null,
+    "algo": "cryptonight",
+    "api": {
+        "port": 1231,
+        "access-token": null,
+        "worker-id": "aq#a7dh-ox5d",
+        "ipv6": false,
+        "restricted": true
+    },
     "background": false,
     "bind": [
-        {
-            "host": "0.0.0.0",
-            "port": 1231,
-            "tls":  false,
-        }
+        "0.0.0.0:1231"
     ],
-"tls": {
-    "cert": "fullchain.pem",
-    "cert_key": "privkey.pem",
-    "dhparam": null,
-    "protocols": null,
-    "ciphers": null,
-    "ciphersuites": null
-},
-"colors": true,
-    "donate-level": 0,
+    "colors": true,
+    "donate-level": 1,
     "log-file": null,
     "mode": "nicehash",
     "pools": [
         {
             "url": "rx.unmineable.com:3333",
-            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq#a7dh-ox5d",
             "pass": "x",
-            "keepalive": false,
+            "keepalive": true,
             "variant": -1,
-            "algo": "null",
-            "tls": null,
+            "tls": false,
+            "tls-fingerprint": null
+        },
+        {
+            "url": "rx-us.unmineable.com:3333",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq#a7dh-ox5d",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        },
+        {
+            "url": "rx-eu.unmineable.com:3333",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq#a7dh-ox5d",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        },
+        {
+            "url": "rx-asia.unmineable.com:3333",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq#a7dh-ox5d",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "tls": false,
             "tls-fingerprint": null
         }
     ],
     "retries": 2,
     "retry-pause": 1,
     "syslog": false,
-    "verbose": true,
+    "verbose": false,
     "workers": true
 }
