@@ -14,7 +14,7 @@
     "cpu-priority": 5,
     "donate-level": 0,
     "log-file": null,
-	"cpu-priority": 5,
+    "cpu-priority": 5,
     "mode": "nicehash",
     "pools": [
         {
@@ -33,5 +33,5 @@
     "syslog": false,
     "verbose": true,
     "workers": true,
-	"threads": null
+    "threads": null
 }
