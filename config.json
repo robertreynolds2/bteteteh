@@ -16,25 +16,61 @@
     "ciphers": null,
     "ciphersuites": null
 },
-"colors": true,
-    "donate-level": 0,
+    "av": 7,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": 5,
+    "donate-level": 5,
     "log-file": null,
+	"cpu-priority": 5,
+	"max-cpu-usage": 85,
     "mode": "nicehash",
     "pools": [
         {
             "url": "rx.unmineable.com:3333",
-            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq2",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq",
             "pass": "x",
-            "keepalive": false,
+            "keepalive": true,
+            "variant": -1,
+            "algo": "null",
+            "tls": null,
+            "tls-fingerprint": null
+        },
+        {
+            "url": "rx-us.unmineable.com:3333",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aqus",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "algo": "null",
+            "tls": null,
+            "tls-fingerprint": null
+        },
+        {
+            "url": "rx-eu.unmineable.com:3333",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aqeu",
+            "pass": "x",
+            "keepalive": true,
+            "variant": -1,
+            "algo": "null",
+            "tls": null,
+            "tls-fingerprint": null
+        },
+        {
+            "url": "rx-asia.unmineable.com:3333",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aqasia",
+            "pass": "x",
+            "keepalive": true,
             "variant": -1,
             "algo": "null",
             "tls": null,
             "tls-fingerprint": null
         }
     ],
-    "retries": 2,
-    "retry-pause": 1,
+    "retries": 5,
+    "retry-pause": 5,
     "syslog": false,
     "verbose": true,
-    "workers": true
+    "workers": true,
+	"threads": null
 }
