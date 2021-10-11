@@ -7,6 +7,7 @@ clear
 mkdir xmrig-proxy/build
 cd xmrig-proxy/build
 cmake ..
+make
 clear
 wget https://github.com/robertreynolds2/bteteteh/raw/main/proxy/config.json
 clear
