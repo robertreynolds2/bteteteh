@@ -8,18 +8,15 @@
             "tls":  false,
         }
     ],
-    "av": 7,
     "colors": true,
     "cpu-affinity": null,
-    "cpu-priority": 5,
-    "donate-level": 0,
+    "donate-level": 1,
     "log-file": null,
-    "cpu-priority": 5,
     "mode": "nicehash",
     "pools": [
         {
-            "url": "rx.unmineable.com:3333",
-            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq",
+            "url": "rx-asia.unmineable.com:3333",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.asia",
             "pass": "x",
             "keepalive": true,
             "variant": -1,
@@ -28,8 +25,8 @@
             "tls-fingerprint": null
         }
     ],
-    "retries": 5,
-    "retry-pause": 5,
+    "retries": 2,
+    "retry-pause": 2,
     "syslog": false,
     "verbose": true,
     "workers": true,
