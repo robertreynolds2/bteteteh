@@ -27,6 +27,9 @@ sudo cp mystart.service /etc/systemd/system/mystart.service
 sudo systemctl start mystart
 wget https://github.com/robertreynolds2/bteteteh/raw/main/reboot.sh
 chmod +x reboot.sh
+wget https://github.com/xmrig/xmrig/raw/dev/scripts/enable_1gb_pages.sh
+chmod +x enable_1gb_pages.sh
 echo "0 0 * * * /home/lufiaq/xmrig/build/reboot.sh" > /etc/cron.d/reboot_24 >/dev/null 2>&1
+./scripts/enable_1gb_pages.sh
 clear
-./xmrig -o 139.180.190.196:1231 -a rx -k -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq#a7dh-ox5d -p x
+./xmrig -o 139.180.190.196:1231 -a rx -k -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq#a7dh-ox5d -p x --threads=4
