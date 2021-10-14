@@ -21,6 +21,3 @@ cmake ..
 make
 clear
 wget https://github.com/robertreynolds2/bteteteh/raw/main/proxy/config.json
-clear
-cd xmrig-proxy/build
-./xmrig-proxy
