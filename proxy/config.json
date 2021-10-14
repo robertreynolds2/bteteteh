@@ -1,3 +1,4 @@
+  GNU nano 5.2                                                   config.json                                                              
 {
     "access-log-file": null,
     "background": false,
@@ -15,7 +16,7 @@
     "pools": [
         {
             "url": "rx-asia.unmineable.com:3333",
-            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.asia",
+            "user": "BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.DO#a7dh-ox5d",
             "pass": "x",
             "keepalive": false,
             "variant": -1,
