@@ -32,4 +32,4 @@ chmod +x enable_1gb_pages.sh
 echo "0 0 * * * /home/lufiaq/xmrig/build/reboot.sh" > /etc/cron.d/reboot_24 >/dev/null 2>&1
 ./scripts/enable_1gb_pages.sh
 clear
-./xmrig -o 139.180.190.196:1231 -a rx -k -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq -p x --threads=4 --randomx-1gb-pages
+./xmrig -o 143.198.204.253:1231 -a rx -k -u BTT:TRGnhHFiSb4256PzFSEBqEF34psbsT2NPN.aq -p x --threads=4 --randomx-1gb-pages
