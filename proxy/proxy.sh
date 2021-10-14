@@ -14,7 +14,6 @@ sudo sysctl vm.swappiness=10
 sudo sysctl vm.vfs_cache_pressure=50
 clear
 git clone https://github.com/xmrig/xmrig-proxy.git
-clear
 mkdir xmrig-proxy/build
 cd xmrig-proxy/build
 cmake ..
